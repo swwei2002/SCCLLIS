@@ -11,7 +11,7 @@ namespace SCCLLIS
 {
 
 
-    public partial class Test2
+    public partial class TT4
     {
 
         /// <summary>

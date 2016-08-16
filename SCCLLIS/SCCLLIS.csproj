@@ -206,8 +206,8 @@
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
     <Content Include="Test.aspx" />
-    <Content Include="Test2.aspx" />
     <Content Include="test3.aspx" />
+    <Content Include="TT4.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -362,18 +362,19 @@
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Test2.aspx.cs">
-      <DependentUpon>Test2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Test2.aspx.designer.cs">
-      <DependentUpon>Test2.aspx</DependentUpon>
-    </Compile>
     <Compile Include="test3.aspx.cs">
       <DependentUpon>test3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="test3.aspx.designer.cs">
       <DependentUpon>test3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TT4.aspx.cs">
+      <DependentUpon>TT4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TT4.aspx.designer.cs">
+      <DependentUpon>TT4.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -396,7 +397,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>2871</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

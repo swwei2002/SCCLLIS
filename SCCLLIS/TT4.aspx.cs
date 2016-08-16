@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace SCCLLIS
 {
-    public partial class Test2 : System.Web.UI.Page
+    public partial class TT4 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
