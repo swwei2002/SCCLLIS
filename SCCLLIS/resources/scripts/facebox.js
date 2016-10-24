@@ -79,8 +79,8 @@
     settings: {
       opacity      : 0,
       overlay      : true,
-      loadingImage : 'http://st.sccl.org.cn/Common/simpla/images/loading.gif',
-      closeImage   : 'http://st.sccl.org.cn/Common/simpla/images/closelabel.gif',
+      loadingImage : 'resources/images/loading.gif',
+      closeImage   : 'resources/images/closelabel.gif',
       imageTypes   : [ 'png', 'jpg', 'jpeg', 'gif' ],
       faceboxHtml  : '\
     <div id="facebox" style="display:none;"> \
@@ -97,7 +97,7 @@
                 </div> \
                 <div class="footer"> \
                   <a href="#" class="close"> \
-                    <img src="http://st.sccl.org.cn/Common/simpla/images/closelabel.gif" title="close" class="close_image" /> \
+                    <img src="resources/images/closelabel.gif" title="close" class="close_image" /> \
                   </a> \
                 </div> \
               </td> \
